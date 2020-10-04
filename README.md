@@ -9,7 +9,7 @@ php artisan make:migration create_tênBảng_table --create=tênBảng
 Chú ý: tênBảng thường là tb_abc
 
 Bước 3: Tạo 1 Cơ sở dữ liệu rỗng trong Local nhé:
-Mình ví dụ tên CSDL là DatabaseApi, sau đó chúng chuyển sang bước 4 để congfig file .env
+Mình ví dụ tên CSDL là DatabaseApi, sau đó chúng ta chuyển sang bước 4 để congfig file .env
 
 Bước 4: Config file .env nhé
 
