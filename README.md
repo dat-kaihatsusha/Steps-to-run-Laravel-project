@@ -32,8 +32,15 @@ Trong đó: DatabaseApi là tên CSDL mà các bạn tạo ở bước 3 đó.
           DB_USERNAME: Tên người dùng là root (gốc), tức là có toàn quyền với DB
           
           DB_PASSWORD: Chúng ta để rỗng, tức là không có password
+  
+  
+Bước 4.2: Vào folder config -> file database.php ->  sửa tên database theo tên database rỗng trong local
           
 Bước 5: Tạo fieds cho các bảng (cái này chưa biết nè)
+
+
+
+
 
 Bước 6: Sau khi tạo fields cho các bảng chúng ta lệnh
 
