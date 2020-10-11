@@ -124,4 +124,9 @@ Trong trường hợp, chúng ta chưa tạo fields cho cho các bảng mà đã
 
 php artisan migrate:refresh
 Trường hợp khi tải 1 project Laravel về từ git thì ta phải setup thì nó mới chạy được, bằng lệnh: composer update
+
 Sau đó ta tạo 1 CSDL rỗng ở trong local và file .env (chú ý là phải chỉnh sửa tên DB_DATABASE giống với file database.php trong folder config)
+
+Cuối cùng khi xong xuôi các bước thì các bạn mới được chạy: php artisan migrate
+
+Nếu migrate lỗi thì đọc kỹ xem lỗi ở đâu nhé, còn nếu khi chạy xong câu lệnh: php artisan migrate không thấy lỗi gì cả mà ta cần chỉnh sửa gì trước đó thì phải dùng lệnh roll back lại: php artisan migrate:refresh
