@@ -98,7 +98,19 @@ Schema::create('product', function (Blueprint $table) {
             
         });
 
+Schema::create('brand', function (Blueprint $table) {
 
+            $table->increments('brand_id');
+            
+            $table->string('brand_name');
+            
+        });
+        
+        Schema::create('category', function (Blueprint $table) {
+            $table->increments('category_id');
+            $table->string('category_name');
+            $table->timestamp('category_date');
+        });
 
 
 
