@@ -118,7 +118,10 @@ Bước 6: Sau khi tạo fields cho các bảng chúng ta lệnh
 
 php artisan migrate
 
+****ALERT***
+Một số chú ý ngoài lề nhé
 Trong trường hợp, chúng ta chưa tạo fields cho cho các bảng mà đã chạy lệnh php artisan migrate, thì như vậy sẽ lỗi, ta cần phải chạy lệnh sau để RollBack lại:
 
 php artisan migrate:refresh
 Trường hợp khi tải 1 project Laravel về từ git thì ta phải setup thì nó mới chạy được, bằng lệnh: composer update
+Sau đó ta tạo 1 CSDL rỗng ở trong local và file .env (chú ý là phải chỉnh sửa tên DB_DATABASE giống với file database.php trong folder config)
