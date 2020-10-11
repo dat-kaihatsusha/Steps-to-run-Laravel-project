@@ -121,3 +121,4 @@ php artisan migrate
 Trong trường hợp, chúng ta chưa tạo fields cho cho các bảng mà đã chạy lệnh php artisan migrate, thì như vậy sẽ lỗi, ta cần phải chạy lệnh sau để RollBack lại:
 
 php artisan migrate:refresh
+Trường hợp khi tải 1 project Laravel về từ git thì ta phải setup thì nó mới chạy được, bằng lệnh: composer update
