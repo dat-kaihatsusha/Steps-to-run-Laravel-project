@@ -47,7 +47,7 @@ Bước 4.2: Vào folder config -> file database.php ->  sửa tên database the
             
             'database' => env('DB_DATABASE', 'demo01'), -->> chính là phần này nè
             
-            'username' => env('DB_USERNAME', 'root'),
+            'username' => env('DB_USERNAME', 'root'), -->> sửa chỗ này nữa nhé
             
             'password' => env('DB_PASSWORD', ''),
             
