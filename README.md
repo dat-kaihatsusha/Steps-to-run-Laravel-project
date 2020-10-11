@@ -76,15 +76,25 @@ Bước 4.2: Vào folder config -> file database.php ->  sửa tên database the
 Bước 5: Tạo fieds cho các bảng:
 Vào folder database -> folder migrations -> chỉnh sửa các file php (chú ý là đã mặc định 2 file 2014_10_12_000000_create_users_table.php và file 2014_10_12_100000_create_password_resets_table.php), ví dụ nhé
 Schema::create('product', function (Blueprint $table) {
+
             $table->increments('product_id');
+            
             $table->string('product_name');
+            
             $table->integer('category_id');
+            
             $table->integer('brand_id');
+            
             $table->double('product_price');
+            
             $table->double('promotion_price');
+            
             $table->string('product_desc');
+            
             $table->timestamp('product_date');
+            
             $table->integer('promotion_amount');
+            
         });
 
 
