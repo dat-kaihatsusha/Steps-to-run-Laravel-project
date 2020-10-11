@@ -34,7 +34,7 @@ Trong đó: DatabaseApi là tên CSDL mà các bạn tạo ở bước 3 đó.
           DB_PASSWORD: Chúng ta để rỗng, tức là không có password
   
   
-Bước 4.2: Vào folder config -> file database.php ->  sửa tên database theo tên database rỗng trong local, trong phần sau nhé:
+Bước 4.2: Vào folder config -> file database.php ->  sửa tên database theo tên database rỗng và DB_USERNAME thành root trong local, trong phần sau nhé:
 'mysql' => [
 
             'driver' => 'mysql',
