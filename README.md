@@ -119,6 +119,7 @@ Bước 6: Sau khi tạo fields cho các bảng chúng ta lệnh
 php artisan migrate
 
 **ALERT**
+
 Một số chú ý ngoài lề nhé
 Trong trường hợp, chúng ta chưa tạo fields cho cho các bảng mà đã chạy lệnh php artisan migrate, thì như vậy sẽ lỗi, ta cần phải chạy lệnh sau để RollBack lại:
 
