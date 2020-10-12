@@ -131,4 +131,4 @@ Cuối cùng khi xong xuôi các bước thì các bạn mới được chạy: 
 
 Nếu migrate lỗi thì đọc kỹ xem lỗi ở đâu nhé, còn nếu khi chạy xong câu lệnh: php artisan migrate không thấy lỗi gì cả mà ta cần chỉnh sửa gì trước đó thì phải dùng lệnh roll back lại: php artisan migrate:refresh
 
-*WARNING* Sau đây mình sẽ đưa ra một số lưu ý khi các bạn làm dự án thực tế nhé.
+**WARNING** Sau đây mình sẽ đưa ra một số lưu ý khi các bạn làm dự án thực tế nhé.
