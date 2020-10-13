@@ -147,4 +147,4 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 </ol>
 
 <h2>Một số hàm đặc biệt trong Laravel hay dùng</h2>
-1. value="{{ old('product_name') }}"
+1. value="{{ old('product_name') }}", muốn sử hiển thị được dữ liệu này trong ô input thì khi return về view ta cần có kèm hàm sau: return view('backend.product.show_product')->with('all_product', $all_product);
