@@ -148,3 +148,56 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 
 <h2>Một số hàm đặc biệt trong Laravel hay dùng</h2>
 1. value="{{ old('product_name') }}", muốn sử hiển thị được dữ liệu này trong ô input thì khi return về view ta cần có kèm hàm sau: return view('backend.product.show_product')->with('all_product', $all_product);
+2. Tuy nhiên, nếu dùng các hàm ở 1 trên, sẽ ảnh hưởng đến trải nghiệm người dùng, chính vì thế, ta chỉ cần làm như sau thôi: 
+<code>
+@extends('backend.master.master')
+@section('title')
+    Thêm sản phẩm
+@endsection
+
+@section('main')
+    <section class="product-section">
+        <form action="{{ URL::to('save-product') }}" method="POST">
+            @csrf
+            <div class="row">
+                <div class="col span-1-of-3"><label>Tên sản phẩm</label></div>
+                <div class="col span-2-of-3"><input type="text" name="product_name" placeholder="Nhập tên Sản phẩm" required></div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3"><label>Mã thể loại</label></div>
+                <div class="col span-2-of-3"><input type="number" name="category_id" placeholder="Nhập mã thể loại" required></div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3"><label>Mã thương hiệu</label></div>
+                <div class="col span-2-of-3"><input type="number" name="brand_id" placeholder="Nhập mã thương hiệu" required></div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3"><label>Giá sản phẩm</label></div>
+                <div class="col span-2-of-3"><input type="number" name="product_price" placeholder="Nhập giá sản phẩm" required></div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3"><label>Giá khuyến mãi</label></div>
+                <div class="col span-2-of-3"><input type="number" name="promotion_price" placeholder="Nhập giá khuyến mãi" required></div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3"><label>Mô tả sản phẩm</label></div>
+                <div class="col span-2-of-3"><textarea name="product_desc" cols="30" rows="5" placeholder="Mô tả sản phẩm" required></textarea></div>
+            </div>
+
+            <div class="row">
+                <div class="col span-1-of-3"><label>Tổng số tiền</label></div>
+                <div class="col span-2-of-3"><input type="number" name="promotion_amount" placeholder="Tổng số tiền" required></div>
+            </div>
+
+            <div class="row">
+                <input type="submit" name="sub" class="btn" value="Save">
+            </div>
+        </form>
+    </section>
+@endsection
+</code>
