@@ -45,7 +45,7 @@ Bước 4.2: Vào folder config -> file database.php ->  sửa tên database the
             
             'port' => env('DB_PORT', '3306'),
             
-            'database' => env('DB_DATABASE', 'demo01'), -->> chính là phần này nè
+            'database' => env('DB_DATABASE', 'demo01'), -->> <span style="color: red">chính là phần này nè<span>
             
             'username' => env('DB_USERNAME', 'root'), -->> sửa chỗ này nữa nhé
             
