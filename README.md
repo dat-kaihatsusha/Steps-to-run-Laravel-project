@@ -139,8 +139,8 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 
 
 <h3>Các bước khi làm tính năng thêm, xóa, sửa</h3>
-<ol style="1">
-          <li>a</li>
+<ol style="Step 1">
+          <li></li>
           <li>b</li>
           <li>c</li>
           <li>d</li>
