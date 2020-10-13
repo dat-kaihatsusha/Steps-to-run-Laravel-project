@@ -136,3 +136,6 @@ Nếu migrate lỗi thì đọc kỹ xem lỗi ở đâu nhé, còn nếu khi ch
 
 Sau đây mình sẽ đưa ra một số lưu ý khi các bạn làm dự án thực tế nhé:
 Thường đối với website bán hàng, trong table product thì có 1 field khá đặc biệt là field: product_date: field này dùng để lưu lại thời gian nhập sản phẩm, field này sẽ được hệ thống tự ghi lại, không cần nhập. Muốn thế ta phải chạy câu query sau: <b>ALTER TABLE mytable CHANGE \`product_date\` \`product_date\` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP</b>
+
+
+<h1>Các bước khi làm tính năng thêm, xóa, sửa</h1>
