@@ -148,8 +148,8 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 
 <h2>Một số hàm đặc biệt trong Laravel hay dùng</h2>
 1. value="{{ old('product_name') }}", muốn sử hiển thị được dữ liệu này trong ô input thì khi return về view ta cần có kèm hàm sau: return view('backend.product.show_product')->with('all_product', $all_product);
-2. Tuy nhiên, nếu dùng các hàm ở 1 trên, sẽ ảnh hưởng đến trải nghiệm người dùng, chính vì thế, ta chỉ cần làm như sau thôi: 
-<code>
+2. Tuy nhiên, nếu dùng các hàm ở 1 trên, sẽ ảnh hưởng đến trải nghiệm người dùng, chính vì thế, ta chỉ cần thêm <b>require</b> như sau thôi như sau thôi: 
+
 @extends('backend.master.master')
 @section('title')
     Thêm sản phẩm
@@ -200,4 +200,4 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
         </form>
     </section>
 @endsection
-</code>
+
