@@ -147,6 +147,4 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 </ol>
 
 <h2>Một số hàm đặc biệt trong Laravel hay dùng</h2>
-<ol style="1>
-          <li></li>value="{{ old('product_name') }}"
-</ol>
+1. value="{{ old('product_name') }}"
