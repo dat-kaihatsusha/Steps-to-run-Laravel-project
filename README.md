@@ -139,9 +139,9 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 
 
 <h3>Các bước khi làm tính năng thêm, xóa, sửa</h3>
-<ol style="Step 1">
+<ol style="1">
+          <li>Các bước cài ban đầu ở trên, mình sẽ không nhắc lại nữa</li>
+          <li>Tạo model bằng câu lệnh sau: php artisan make:model Tên_modle</li>
           <li></li>
-          <li>b</li>
-          <li>c</li>
-          <li>d</li>
+          <li></li>
 </ol>
