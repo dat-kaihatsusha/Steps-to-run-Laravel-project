@@ -206,3 +206,5 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 
 <hr>
 Hello ae, hnay mình sẽ nói cho các bạn toàn bộ kiến thức để trở thành, 1 lập trình viên Web PHP full stack nhé.
+- Cơ bản: HTML, CSS, JS (DOM, EVENT, JSON)
+- Nâng cao: Bootstrap 4.
