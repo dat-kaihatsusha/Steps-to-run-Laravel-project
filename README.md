@@ -205,3 +205,4 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
 
 
 <hr>
+Hello ae, hnay mình sẽ nói cho các bạn toàn bộ kiến thức để trở thành, 1 lập trình viên Web PHP full stack nhé.
