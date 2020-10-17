@@ -202,3 +202,6 @@ Thường đối với website bán hàng, trong table product thì có 1 field 
     </section>
 @endsection
 </code>
+
+
+<hr>
